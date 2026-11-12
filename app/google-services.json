@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023009931214",
+    "project_id": "cortinas-afc06",
+    "storage_bucket": "cortinas-afc06.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023009931214:android:d6b0b0f64c03f64caaf59f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR4hreaSMRmMKRSSkl6iJ4otGhds3Go2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="24dp">
+
+    <TextView android:id="@+id/tvBienvenida" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Bienvenido"
+        android:textSize="20sp" android:layout_marginBottom="8dp" />
+
+    <TextView android:id="@+id/tvConexion" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Conectando..."
+        android:layout_marginBottom="16dp" />
+
+    <TextView android:id="@+id/tvTemp" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Temperatura: --" android:textSize="22sp" />
+
+    <TextView android:id="@+id/tvLuz" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Luz: --" android:textSize="22sp" />
+
+    <TextView android:id="@+id/tvEstado" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Cortina: --" android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button android:id="@+id/btnAbrir" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Abrir" />
+
+    <Button android:id="@+id/btnCerrar" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Cerrar" />
+
+    <Button android:id="@+id/btnAuto" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Modo automático" />
+
+    <Button android:id="@+id/btnSalir" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Cerrar sesión"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
